@@ -13,5 +13,9 @@ namespace LoginSystem.Controllers {
         public IActionResult VerifyEmail() {
             return View();
         }
+
+        public IActionResult ChangePassword() {
+            return View();
+        }
     }
 }
